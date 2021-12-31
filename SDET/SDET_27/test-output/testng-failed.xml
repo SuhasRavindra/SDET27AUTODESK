@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regressionSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest">
+        <methods>
+          <include name="createContactswithOrganizationTest"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest -->
+      <class name="com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization">
+        <methods>
+          <include name="createMailMergeTemplateWithModuleOrganization"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization -->
+      <class name="com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot">
+        <methods>
+          <include name="cancelButtonsEnabledOrNotTest"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot -->
+      <class name="com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest">
+        <methods>
+          <include name="createOrgwithIndustryandTypeTest"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="2" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3562" started-at="2021-12-27T11:59:34 IST" finished-at="2021-12-27T11:59:38 IST">
+    <groups>
+      <group name="regressionSuite">
+        <method signature="CancelButtonsEnableOrNot.cancelButtonsEnabledOrNotTest()[pri:0, instance:com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot@1500955a]" name="cancelButtonsEnabledOrNotTest" class="com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot"/>
+        <method signature="CreateContactswithOrganizationTest.createContactswithOrganizationTest()[pri:0, instance:com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest@4abdb505]" name="createContactswithOrganizationTest" class="com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest"/>
+        <method signature="CreateMailMergeTemplateWithModuleOrganization.createMailMergeTemplateWithModuleOrganization()[pri:0, instance:com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization@3e57cd70]" name="createMailMergeTemplateWithModuleOrganization" class="com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization"/>
+        <method signature="CreateOrgwithIndustryandTypeTest.createOrgwithIndustryandTypeTest()[pri:0, instance:com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest@e874448]" name="createOrgwithIndustryandTypeTest" class="com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest"/>
+      </group> <!-- regressionSuite -->
+    </groups>
+    <test name="Test" duration-ms="3562" started-at="2021-12-27T11:59:34 IST" finished-at="2021-12-27T11:59:38 IST">
+      <class name="com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest">
+        <test-method status="FAIL" signature="createContactswithOrganizationTest()[pri:0, instance:com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest@4abdb505]" name="createContactswithOrganizationTest" duration-ms="122" started-at="2021-12-27T11:59:37 IST" finished-at="2021-12-27T11:59:37 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.ObjectRepository.HomePage.clicOrganizationsLink(HomePage.java:62)
+at com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest.createContactswithOrganizationTest(CreateContactswithOrganizationTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactswithOrganizationTest -->
+      </class> <!-- com.crm.autodesk.contactsTest.CreateContactswithOrganizationTest -->
+      <class name="com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization">
+        <test-method status="FAIL" signature="createMailMergeTemplateWithModuleOrganization()[pri:0, instance:com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization@3e57cd70]" name="createMailMergeTemplateWithModuleOrganization" duration-ms="3147" started-at="2021-12-27T11:59:34 IST" finished-at="2021-12-27T11:59:37 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.ObjectRepository.HomePage.clickContactsLink(HomePage.java:57)
+at com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization.createMailMergeTemplateWithModuleOrganization(CreateMailMergeTemplateWithModuleOrganization.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMailMergeTemplateWithModuleOrganization -->
+      </class> <!-- com.crm.autodesk.contactsTest.CreateMailMergeTemplateWithModuleOrganization -->
+      <class name="com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot">
+        <test-method status="FAIL" signature="cancelButtonsEnabledOrNotTest()[pri:0, instance:com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot@1500955a]" name="cancelButtonsEnabledOrNotTest" duration-ms="55" started-at="2021-12-27T11:59:37 IST" finished-at="2021-12-27T11:59:37 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.ObjectRepository.HomePage.clickContactsLink(HomePage.java:57)
+at com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot.cancelButtonsEnabledOrNotTest(CancelButtonsEnableOrNot.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonsEnabledOrNotTest -->
+      </class> <!-- com.crm.autodesk.contactsTest.CancelButtonsEnableOrNot -->
+      <class name="com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest">
+        <test-method status="FAIL" signature="createOrgwithIndustryandTypeTest()[pri:0, instance:com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest@e874448]" name="createOrgwithIndustryandTypeTest" duration-ms="103" started-at="2021-12-27T11:59:37 IST" finished-at="2021-12-27T11:59:37 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.ObjectRepository.HomePage.clicOrganizationsLink(HomePage.java:62)
+at com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest.createOrgwithIndustryandTypeTest(CreateOrgwithIndustryandTypeTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgwithIndustryandTypeTest -->
+      </class> <!-- com.crm.autodesk.OrgTest.CreateOrgwithIndustryandTypeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
